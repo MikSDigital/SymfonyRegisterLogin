@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+{% if app.user %}
+    <div>
+        <span>Name : {{ app.user.username }}</span> <br>
+        <span>Email : {{ app.user.email }}</span> <br>
+        <span>Role : {{ app.user.roles[0] }}</span> <br>
+        <span>Password use Bcryt : {{ app.user.password }}</span> <br>
+    </div>
+    {% endif %}
+{% endblock %}
+
