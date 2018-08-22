@@ -32,7 +32,6 @@ Il est possible que j'ajoute des branches pour agrémenter le système.
 	 - Modification du mot de passe
 	 - Modification de l'adresse email
 
-
 # Demonstration of a registration system and connection on Symfony 4
 
 To avoid using FOSUserBundle here is a starting point for a registration and login system that can be useful to start a project that requires user space.
